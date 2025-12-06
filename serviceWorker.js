@@ -8,7 +8,7 @@ self.addEventListener( "install", e => {
 			"/manifest.json",
 			"/assets/ico.svg",
 			"/assets/logo/gs-gs-logo.svg",
-			"/assets/logo/gs-gridsound-logo.svg",
+			"/assets/logo/gs-gridsound-logo-animated.svg",
 			"/assets/gsuiLibrarySamples-v1.js",
 			"/assets/gswaPeriodicWavesList-v1.js",
 			"/assets/fonts/fa-brands-400.woff2",

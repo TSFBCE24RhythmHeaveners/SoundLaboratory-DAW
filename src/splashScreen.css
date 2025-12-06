@@ -6,6 +6,7 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	color: #fff;
 	background-color: #1b1b31;
 	background-image: linear-gradient( 45deg, #0006, transparent );
 	transition: .5s opacity;
@@ -25,18 +26,17 @@
 
 /* .......................................................................... */
 #splashScreen-logo {
-	position: relative;
 	width: 500px;
-	height: 122px;
-	inset: 0;
-	mask: center no-repeat alpha url( "../assets/logo/gs-gridsound-logo.svg" );
+	height: 246px;
+	mask: center no-repeat alpha url( "../assets/logo/gs-gridsound-logo-animated.svg" );
 	background-color: #fff;
 }
 
 /* .......................................................................... */
 #splashScreen-version {
 	align-self: end;
-	margin-right: 2px;
+	margin-top: -68px;
+	margin-right: 1px;
 	font-family: var( --gsui-font-monospace );
 
 	&::before {
